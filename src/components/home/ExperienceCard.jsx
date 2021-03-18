@@ -1,11 +1,12 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { 
     Col,
     Button,
     Card
  } from "react-bootstrap";
-const ExperienceCard = ({data}) => {
+const ExperienceCard = ({data, paper}) => {
     return ( 
         <Col lg="6">
              <Card className="shadow-lg--hover shadow border-0 text-center rounded my-2">
@@ -29,6 +30,9 @@ const ExperienceCard = ({data}) => {
                         </ul>
                     <div>
                     </div>
+                    <Button href={data.paper} variant="outline-success" size="lg">
+                      Paper
+                    </Button>{' '}
                 </Card.Body>
             </Card> 
         </Col>
