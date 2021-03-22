@@ -152,7 +152,8 @@ const experiences = {
         'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; patent-pending (Application Number: KR 10-2019-0087022)',
       ],
       paper: require("../editable-stuff/orbitron-paper.pdf"),
-      video: "https://youtu.be/WXjisSnfGTI"
+      video: "https://youtu.be/WXjisSnfGTI",
+      btnname: "VideoPortfolio"
     },
 
     {
@@ -168,7 +169,8 @@ const experiences = {
         'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
       ],
       paper: require("../editable-stuff/sstp-paper.pdf"),
-      video: "https://youtu.be/FZvnE30DoSI"
+      video: "https://youtu.be/FZvnE30DoSI",
+      btnname: "Fun!Video"
     },
   ]
 }
