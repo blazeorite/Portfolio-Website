@@ -158,6 +158,8 @@ const experiences = {
     {
       role: 'Histogram Layer for Texture Classification',
       company: 'tylertaewook/sstp-hist-cnn',
+      companylogo: require("../editable-stuff/sstp.png"),
+      
       date: 'June 2019 – Aug 2019',
       desc:
         'Paper written and presented as part of the 61st Annual UF SSTP; Assisted ML texture analysis research in Professor Alina Zare’s Machine Learning and Sensing Lab by implementing deep network models in PyTorch and conducted various experiments with different parameters',
