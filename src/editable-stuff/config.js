@@ -168,7 +168,7 @@ const experiences = {
         'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
       ],
       paper: require("../editable-stuff/sstp-paper.pdf"),
-      video: ""
+      video: "https://youtu.be/FZvnE30DoSI"
     },
   ]
 }
