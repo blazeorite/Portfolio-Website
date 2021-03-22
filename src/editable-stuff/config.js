@@ -153,7 +153,7 @@ const experiences = {
       ],
       paper: require("../editable-stuff/orbitron-paper.pdf"),
       video: "https://youtu.be/WXjisSnfGTI",
-      btnname: "VideoPortfolio"
+      btnname: "Video"
     },
 
     {
