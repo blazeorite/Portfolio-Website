@@ -14,7 +14,7 @@ const ExperienceCard = ({data, paper}) => {
                     <h5>{data.company}</h5>
                 </Card.Header>
                 <Card.Body className="py-5">
-                    <Card.Img className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg" src={data.companylogo} style={{ width: "100px" }} alt=""/>
+                    <Card.Img variant="top" src={data.companylogo} />
                     <Card.Title tag="h5">{data.role}</Card.Title>
                     <Card.Subtitle>{data.date}</Card.Subtitle>
                     <Card.Text className="my-3 text-left">
