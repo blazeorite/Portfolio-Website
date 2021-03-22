@@ -34,7 +34,7 @@ const ExperienceCard = ({data, paper}) => {
                       Paper
                     </Button>{' '}
                     <Button href={data.video} variant="outline-danger" size="lg">
-                      Video
+                        {data.btnname}
                     </Button>{' '}
                 </Card.Body>
             </Card> 
