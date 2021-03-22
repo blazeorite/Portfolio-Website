@@ -142,7 +142,7 @@ const experiences = {
     {
       role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
       company: 'tylertaewook/project-orbitron',
-      companylogo: require("../editable-stuff/orbitron.png")
+      companylogo: require("../editable-stuff/orbitron.png"),
       
       date: 'Jan 2018 – June 2020',
       desc:
