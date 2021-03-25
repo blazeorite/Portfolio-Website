@@ -38,10 +38,10 @@ const MainBody = React.forwardRef(
             ))}
           </div>
           <a
-            className="btn btn-outline-light btn-lg "
-            href="#aboutme"
+            className="btn btn-dark btn-lg "
+            href="https://tylertaewook.github.io/blog/"
             role="button"
-            aria-label="Learn more about me"
+            aria-label="Check out my blog!"
           >
             More about me
           </a>
