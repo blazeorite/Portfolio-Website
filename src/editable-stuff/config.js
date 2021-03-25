@@ -16,16 +16,12 @@ const mainBody = {
       url: "https://github.com/tylertaewook",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/tyler.kim.338211",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/tylr.kim/",
-    },
-    {
       image: "fa-linkedin",
       url: "https://www.linkedin.com/in/tylertaewook/",
+    },
+    {
+      image: "fa-kaggle",
+      url: "https://www.kaggle.com/tylertaewook",
     },
     {
       image: "fa-twitter",
