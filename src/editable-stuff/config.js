@@ -27,6 +27,10 @@ const mainBody = {
       image: "fa-twitter",
       url: "https://www.twitter.com/tylertaewook/",
     },
+    {
+      image: "fa-dev",
+      url: "https://dev.to/tylertaewook",
+    },
   ],
 };
 
