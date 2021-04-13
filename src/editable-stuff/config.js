@@ -53,12 +53,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/tylerkim.png"),
   imageSize: 375,
-  message:
-    `
-I'm an incoming freshman for Columbia University who is motivated, initiative, and open to trying new things including but not limited to Data Analysis, Computer Science, and Machine Learning.
-
-Outside tech, I love to skateboard around the city, cook with my family and read new books in new places every week.
-`,
+  message: "I'm an incoming freshman for Columbia University who is motivated, initiative, and open to trying new things including but not limited to Data Analysis, Computer Science, and Machine Learning. \n Outside tech, I love to skateboard around the city, cook with my family and read new books in new places every week.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
