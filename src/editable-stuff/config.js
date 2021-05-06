@@ -31,6 +31,10 @@ const mainBody = {
       image: "fa-dev",
       url: "https://dev.to/tylertaewook",
     },
+    {
+      image: "fa-medium",
+      url: "https://tylertaewook.medium.com/",
+    },
   ],
 };
 
