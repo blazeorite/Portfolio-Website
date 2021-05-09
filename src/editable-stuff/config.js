@@ -57,7 +57,7 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/tylerkim.png"),
   imageSize: 375,
-  message: "An incoming freshman for Columbia University whose background is in Arduino-robotics, reinforcement learning, computer vision, and data analysis. I am motivated, initiative, and open to trying new things while serving Korea's mandatory military service until August 2022. \n Outside tech, I love to skateboard around the city, cook with my family and read new books in new places every week.",
+  message: "An incoming freshman for Columbia University whose background is in Arduino-robotics, reinforcement learning, computer vision, and data analysis. I am motivated, initiative, and open to trying new things while serving Korea's mandatory military service until August 2022. Outside tech, I love to skateboard around the city, cook with my family and read new books in new places every week.",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
