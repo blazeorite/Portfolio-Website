@@ -47,13 +47,16 @@ const MainBody = React.forwardRef(
           </a>
 
           <a
-            className="btn btn-light btn-lg "
-            href="https://tylertaewook.github.io/blog/"
+            className="btn btn-outline-dark btn-lg"
+            href={resume}
+            target="_blank"
+            rel="noreferrer noopener"
             role="button"
-            aria-label="Resume"
+            aria-label="Resume/CV"
           >
             Resume
           </a>
+          
         </Container>
       </Jumbotron>
     );
