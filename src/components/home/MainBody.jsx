@@ -39,7 +39,7 @@ const MainBody = React.forwardRef(
             ))}
           </div>
           <a
-            className="btn btn-outline-success btn-lg "
+            className="btn btn-success btn-lg "
             href="https://tylertaewook.github.io/blog/"
             role="button"
             aria-label="Check out my blog!"
@@ -48,7 +48,7 @@ const MainBody = React.forwardRef(
           </a>
           &nbsp;&nbsp;&nbsp;
           <a
-            className="btn btn-outline-info btn-lg "
+            className="btn btn-info btn-lg "
             href="https://tylertaewook.github.io/static/media/resume.ac6f176c.pdf"
             role="button"
             aria-label="Resume"
