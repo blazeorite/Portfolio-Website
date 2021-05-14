@@ -2,6 +2,7 @@ import React from "react";
 import Typist from "react-typist";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
+import Pdf from "../../editable-stuff/resume.pdf";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
