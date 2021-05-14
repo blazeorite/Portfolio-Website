@@ -46,16 +46,21 @@ const MainBody = React.forwardRef(
             Check out my blog!
           </a>
 
-          <a
-            className="btn btn-outline-dark btn-lg"
-            href={resume}
-            target="_blank"
-            rel="noreferrer noopener"
-            role="button"
-            aria-label="Resume/CV"
-          >
-            Resume
-          </a>
+          <p className="lead text-center">{message}</p>
+          {resume && (
+            <p className="lead text-center">
+              <a
+                className="btn btn-outline-dark btn-lg"
+                href={resume}
+                target="_blank"
+                rel="noreferrer noopener"
+                role="button"
+                aria-label="Resume/CV"
+              >
+                Resume
+              </a>
+            </p>
+          )}
           
         </Container>
       </Jumbotron>
