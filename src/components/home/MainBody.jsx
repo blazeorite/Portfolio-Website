@@ -46,7 +46,7 @@ const MainBody = React.forwardRef(
           >
             Check out my blog!
           </a>
-
+          &nbsp;&nbsp;&nbsp;
           <a
             className="btn btn-secondary btn-lg "
             href="https://tylertaewook.github.io/static/media/resume.ac6f176c.pdf"
