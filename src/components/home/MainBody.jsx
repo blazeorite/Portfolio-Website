@@ -45,6 +45,15 @@ const MainBody = React.forwardRef(
           >
             Check out my blog!
           </a>
+
+          <a
+            className="btn btn-light btn-lg "
+            href="https://tylertaewook.github.io/blog/"
+            role="button"
+            aria-label="Resume"
+          >
+            Resume
+          </a>
         </Container>
       </Jumbotron>
     );
