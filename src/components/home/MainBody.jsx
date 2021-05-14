@@ -48,7 +48,7 @@ const MainBody = React.forwardRef(
           </a>
           &nbsp;&nbsp;&nbsp;
           <a
-            className="btn btn-secondary btn-lg "
+            className="btn btn-outline-dark btn-lg "
             href="https://tylertaewook.github.io/static/media/resume.ac6f176c.pdf"
             role="button"
             aria-label="Resume"
