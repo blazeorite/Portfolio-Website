@@ -44,7 +44,7 @@ const MainBody = React.forwardRef(
             role="button"
             aria-label="Check out my blog!"
           >
-            Check out my blog!
+            Blog
           </a>
           &nbsp;&nbsp;&nbsp;
           <a
