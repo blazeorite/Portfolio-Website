@@ -2,7 +2,7 @@ import React from "react";
 import Typist from "react-typist";
 import Container from "react-bootstrap/Container";
 import Jumbotron from "react-bootstrap/Jumbotron";
-import Pdf from "../../editable-stuff/resume.pdf";
+import PDF from "../../editable-stuff/resume.pdf";
 
 const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
@@ -40,7 +40,7 @@ const MainBody = React.forwardRef(
           </div>
           <a
             className="btn btn-outline-dark btn-lg "
-            href={process.env.PUBLIC_URL + "/static/media/resume.ac6f176c.pdf"}
+            href={PDF}
             role="button"
             aria-label="Resume"
           >
