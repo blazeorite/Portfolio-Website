@@ -39,23 +39,13 @@ const MainBody = React.forwardRef(
             ))}
           </div>
           <a
-            className="btn btn-dark btn-lg "
-            href="https://tylertaewook.github.io/blog/"
-            role="button"
-            aria-label="Check out my blog!"
-          >
-            Blog
-          </a>
-          &nbsp;&nbsp;&nbsp;
-          <a
             className="btn btn-outline-dark btn-lg "
-            href="https://tylertaewook.github.io/static/media/resume.ac6f176c.pdf"
+            href={process.env.PUBLIC_URL + "/static/media/resume.ac6f176c.pdf"}
             role="button"
             aria-label="Resume"
           >
             Resume
           </a>
-          
         </Container>
       </Jumbotron>
     );

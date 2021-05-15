@@ -4,7 +4,13 @@ import { useScrollPosition } from "../hooks/useScrollPosition";
 import useResizeObserver from "../hooks/useResizeObserver";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import { mainBody, repos, about, skills } from "../editable-stuff/config.js";
+import {
+  mainBody,
+  repos,
+  about,
+  skills,
+  leadership,
+} from "../editable-stuff/config.js";
 
 const Navigation = React.forwardRef((props, ref) => {
   // const { showBlog, FirstName } = config;
@@ -45,14 +51,14 @@ const Navigation = React.forwardRef((props, ref) => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="toggler" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          { 
+          {about.show && (
             <Nav.Link
               className="nav-link lead"
-              href="https://tylertaewook.github.io/blog/"
+              href={process.env.PUBLIC_URL + "/#aboutme"}
             >
-              Blog
+              About
             </Nav.Link>
-          }
+          )}
           {repos.show && (
             <Nav.Link
               className="nav-link lead"
@@ -69,20 +75,13 @@ const Navigation = React.forwardRef((props, ref) => {
           >
             Resume
           </Nav.Link>
-          {about.show && (
+
+          {leadership.show && (
             <Nav.Link
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
+              href={process.env.PUBLIC_URL + "/#leadership"}
             >
-              About
-            </Nav.Link>
-          )}
-          {skills.show && (
-            <Nav.Link
-              className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#skills"}
-            >
-              Skills
+              Leadership
             </Nav.Link>
           )}
         </Nav>

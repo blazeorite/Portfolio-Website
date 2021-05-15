@@ -5,7 +5,7 @@
 
   <p align="center">
     It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects. Site URL / Demo: 
-    <a href="https://tylertaewook.github.io">tylertaewook.github.io</a>
+    <a href="https://blazeorite.github.io">blazeorite.github.io</a>
     <br />
     <br />
     <a href="https://hashirshoaeb.com">About Me</a>
@@ -23,7 +23,7 @@
 [![GitHub license](https://img.shields.io/github/license/hashirshoaeb/home?style=for-the-badge)](https://github.com/hashirshoaeb/home/blob/master/LICENSE)
 [![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
 
-[![Site preview](/public/social-image.png)](https://tylertaewook.github.io/)
+[![Site preview](/public/social-image.png)](https://blazeoerite.github.io/)
 
 ## Table of Contents
 
@@ -126,12 +126,12 @@ You should have [Node.js](https://nodejs.org/en/) and [Git](https://git-scm.com/
 
 10. To change the thumbnail image:
 
-    - Navigate to the "public" folder.  
-    - There you will see "social-image.png".  
-    - Delete it.   
-    - Take a screenshot of your version and rename it "social-image.png" and place it there.  
-    
-   Next time if you make changes, repeat from step 8.
+    - Navigate to the "public" folder.
+    - There you will see "social-image.png".
+    - Delete it.
+    - Take a screenshot of your version and rename it "social-image.png" and place it there.
+
+Next time if you make changes, repeat from step 8.
 
 Facing issues? Feel free to contact at hashirshoaeb@gmail.com.
 
@@ -206,4 +206,3 @@ Have you changed something in the code to create your own version? Feel free to 
     </td>
   </tr>
 </table>
-

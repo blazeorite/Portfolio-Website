@@ -6,34 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Tyler",
-  middleName: "\"태욱\"",
-  lastName: "Kim",
-  message: " Making cool things since 2015😎.",
+  firstName: "Sujith",
+  middleName: "",
+  lastName: "Nakkala",
+  message: " Aspiring Full Stack Dev",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/tylertaewook",
+      url: "https://github.com/blazeorite",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/tylertaewook/",
-    },
-    {
-      image: "fa-kaggle",
-      url: "https://www.kaggle.com/tylertaewook",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/tylertaewook/",
-    },
-    {
-      image: "fa-dev",
-      url: "https://dev.to/tylertaewook",
-    },
-    {
-      image: "fa-medium",
-      url: "https://tylertaewook.medium.com/",
+      url: "https://www.linkedin.com/in/sujith-nakkala-580353143/",
     },
   ],
 };
@@ -55,9 +39,9 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/tylerkim.png"),
+  imageLink: require("../editable-stuff/profile-pic.jpg"),
   imageSize: 375,
-  message: "An incoming freshman for Columbia University whose background is in Arduino-robotics, reinforcement learning, computer vision, and data analysis. I am motivated, initiative, and open to trying new things while serving Korea's mandatory military service until August 2022. Outside tech, I love to skateboard around the city, cook with my family and read new books in new places every week.",
+  message: "CS Honors student at Central Connecticut State University",
   resume: require("../editable-stuff/resume.pdf"),
 };
 
@@ -69,38 +53,32 @@ const about = {
 const repos = {
   show: true,
   heading: "Featured Projects",
-  gitHubUsername: "tylertaewook", //i.e."johnDoe12Gh"
+  gitHubUsername: "blazeorite", //i.e."johnDoe12Gh"
   reposLength: 0,
-  specificRepos: ["project-orbitron","sstp-hist-cnn","arduino-turret","chisktale"],
+  specificRepos: ["FinalProject", "todo", "DjangoProject6"],
 };
 
 // Leadership SECTION
 const leadership = {
   show: true,
   heading: "Leadership",
-  message:
-    "Throughout my high school career, I've been extremely grateful to have opportunities to lead my peers and make an impact in the Kent community. In my role as the President of Kent Coding Club, I initiated and led a STEM outreach program where members taught local students programming and robotics using mBots. During weekdays, I assisted my peers to understand concepts easily in math/science as Peer Tutor. In addition, I proposed and implemented a demo chatbot application to make the peer tutor signup process much easier.",
+  message: "Peer mentor, Cs Club officer",
   images: [
-    { 
-      img: require("../editable-stuff/cc1.jpeg"), 
-      label: "Coding Club", 
-      paragraph: "Teaching how to use foldscopes"
+    {
+      img: require("../editable-stuff/cc1.jpeg"),
+      label: "Senior Peer Mentor",
+      paragraph: "Guiding New students to succed in college",
     },
-    { 
-      img: require("../editable-stuff/cc2.jpeg"), 
-      label: "Coding Club", 
-      paragraph: "Presenting how to program mBots" 
-    },
-    { 
-      img: require("../editable-stuff/kentgenomebox.jpeg"), 
-      label: "Coding Club", 
-      paragraph: "Presenting how to program mBots" 
+    {
+      img: require("../editable-stuff/cc2.jpeg"),
+      label: "CS Club",
+      paragraph: "Presenting how SQL injections work",
     },
   ],
   imageSize: {
-    width:"615",
-    height:"450"
-  }
+    width: "615",
+    height: "450",
+  },
 };
 
 // SKILLS SECTION
@@ -135,54 +113,27 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "If you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "tylertaewook@gmail.com",
+  email: "sujith0709@gmail.com",
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Publications",
-  data: [
-    {
-      role: 'Intuitive Control Algorithm Development of 4WIS/4WID Using a SpaceMouse',
-      company: 'tylertaewook/project-orbitron',
-      companylogo: require("../editable-stuff/orbitron.png"),
-      
-      date: 'Jan 2018 – June 2020',
-      desc:
-        'Independent research project done as part of the Kent School Guild',
-      descBullets: [
-        'Built a vehicle with a spherical wheel that implements a 4 wheel independent steering/driving system with Arduino and C# Winform Application.',
-        'Developed a unique control algorithm in Mathematica and wrote/presented a paper in front of school body; Accepted as one of three members in Kent Guild; Won 7 awards at CT Science Fair; patent-pending (Application Number: KR 10-2019-0087022)',
-      ],
-      paper: require("../editable-stuff/orbitron-paper.pdf"),
-      poster: require("../editable-stuff/orbitron-poster.pdf"),
-      video: "https://youtu.be/WXjisSnfGTI",
-      btnname: "Video"
-    },
-
-    {
-      role: 'Histogram Layer for Texture Classification',
-      company: 'tylertaewook/sstp-hist-cnn',
-      companylogo: require("../editable-stuff/sstp.png"),
-      
-      date: 'June 2019 – Aug 2019',
-      desc:
-        'Paper written and presented as part of the 61st Annual UF SSTP; Assisted ML texture analysis research in Professor Alina Zare’s Machine Learning and Sensing Lab by implementing deep network models in PyTorch and conducted various experiments with different parameters',
-      descBullets: [
-        'We propose a hybrid model that incorporates a stackable, localized histogram layer on convolutional neural network (CNN) for texture analysis applications.',
-        'Instead of using standard histogram operation, we used RBF (Radial Basis Function) to perform a localized binning operation without binning constraints.',
-      ],
-      paper: require("../editable-stuff/sstp-paper.pdf"),
-      poster: require("../editable-stuff/sstp-poster.pdf"),
-      video: "https://youtu.be/FZvnE30DoSI",
-      btnname: "Fun!Video"
-    },
-  ]
-}
+  data: [],
+};
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export {
+  navBar,
+  mainBody,
+  about,
+  repos,
+  skills,
+  leadership,
+  getInTouch,
+  experiences,
+};
