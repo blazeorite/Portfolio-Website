@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Sujith",
   middleName: "",
   lastName: "Nakkala",
-  message: " Aspiring Full Stack Dev",
+  message: " Aspiring Software Engineer",
   icons: [
     {
       image: "fa-github",
@@ -62,17 +62,17 @@ const repos = {
 const leadership = {
   show: true,
   heading: "Leadership",
-  message: "Peer mentor, Cs Club officer",
+  message: "",
   images: [
     {
-      img: require("../editable-stuff/cc1.jpeg"),
-      label: "Senior Peer Mentor",
-      paragraph: "Guiding New students to succed in college",
+      img: require("../editable-stuff/CS-CLUB.jpg"),
+      label: "CS Club",
+      paragraph: "Computer Science Club",
     },
     {
-      img: require("../editable-stuff/cc2.jpeg"),
-      label: "CS Club",
-      paragraph: "Presenting how SQL injections work",
+      img: require("../editable-stuff/peer-mentor.jpg"),
+      label: "Senior Peer Mentor",
+      paragraph: "Guiding New students to succeed in college",
     },
   ],
   imageSize: {

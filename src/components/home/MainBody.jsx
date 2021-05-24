@@ -41,6 +41,7 @@ const MainBody = React.forwardRef(
           <a
             className="btn btn-outline-dark btn-lg "
             href={PDF}
+            target="_blank"
             role="button"
             aria-label="Resume"
           >
